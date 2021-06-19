@@ -1,0 +1,142 @@
+---
+layout: index-layout
+subject: Transactional email
+---
+
+<container>
+  <!-- total-price section -->
+  <row class="total-price">
+      <columns small="6" large="8">
+        <h2> {{uberEmail.TotalPrice.TheTotal}} </h2>
+      </columns>
+      <columns small="6" large="4">
+        <span>{{uberEmail.TotalPrice.ThepriceItself}}</span>
+    </columns>
+  </row>
+  <hr>
+  <!-- tripe fare section -->
+  <row class="trip-fare">
+      <columns small="6" large="9">
+        <p>{{ uberEmail.ThetripFare.Paragraph}}</p>
+      </columns>
+      <columns small="6" large="3">
+        <span>{{ uberEmail.ThetripFare.PriceofThetrip}}</span>
+      </columns>
+  </row>
+   <hr>
+   <!-- subtotal section -->
+   {{#each uberEmail.ThesubTotal}}
+   <row class="sub-total">
+      <columns small="6" large="9">
+        <p>{{this.TheTitle}}</p>
+      </columns>
+      <columns small="6" large="3">
+        <span>{{ this.ThepriceofTheTitle}}</span>
+      </columns>
+  </row>
+  {{/each}}
+    <!-- wait time section -->
+    {{#each uberEmail.ThewaitTime}}
+<row class="wait-time">
+    <columns>
+        <row>
+          <columns small="6" large="8">
+              <p>{{this.ItparaGraph}} </p>
+              <a href=""><img src="{{this.HelP}}" 
+                          style="width:16px;padding-bottom:8px;object-fit: cover;" alt="">
+              </a>
+            </columns>
+            <columns small="6" large="4">
+                <span>{{this.ItAmount}}</span>
+            </columns>
+        </row>
+  </columns>
+</row>
+  {{/each}}
+  <hr>
+</container>
+<!-- price charged -->
+<container>
+  <row class="price-charged">
+    <columns>
+      <span>{{uberEmail.TheAmountCharged.tTaMountCHarged}}</span>
+    </columns>
+  </row>
+  <!-- credit card info section -->
+  <row class="credit-info">
+      <columns small="6" large="8">
+          <img src="{{uberEmail.CreditCardInformation.VISA}}"style="width:35px;object-fit: cover;" alt="">
+          <span>&#8226;&#8226;&#8226;  {{uberEmail.CreditCardInformation.CreditNumber}} </span>
+          <span  style="color:#c2c2c2;" >&#124;</span>
+          <a href=""style="text-decoration:underline;color:#1155cc;">{{uberEmail.CreditCardInformation.ChangeCard}} </a>
+      </columns>
+      <columns small="6" large="4">
+          <span class="amount">{{uberEmail.CreditCardInformation.cREditinfoPrice}} </span>
+      </columns>
+  </row>
+  <!-- content section-->
+  <row class="content">
+    <columns >
+        <span>{{uberEmail.TheconTent.FirstContent}} (&#8226;&#8226;&#8226;  8989 ).
+              {{uberEmail.TheconTent.sameContent}}
+        </span>
+          <a href=""style="text-decoration:underline;">{{uberEmail.TheconTent.firstANCHOR}}</a><br><br>
+          <a href=""style="text-decoration:underline;">{{uberEmail.TheconTent.SecondAnchor}}</a>
+          <span>{{uberEmail.TheconTent.MoreInfo}}</span><br><br>
+          <p class="registration">{{uberEmail.TheconTent.Registration}}</p><br>
+          <a href=""style="text-decoration:underline;">
+            <p style="color:#1155cc;font-weight: bold;font-size: 17px;">
+              {{uberEmail.TheconTent.PDFversion}}
+            </p>
+        </a>
+    </columns>
+  </row>
+</container>
+<!-- driver info section -->
+<container>
+  <row class="driver-info">
+    <columns>
+        <h5>{{uberEmail.DriverInformaition.DriverName}}</h5>
+        <p>{{uberEmail.DriverInformaition.LicencePLate}}</p>
+        <p>{{uberEmail.DriverInformaition.LicenceInfo}}</p>
+        <img src="{{uberEmail.DriverInformaition.insuranceIMG}}" alt="">
+        <span>{{uberEmail.DriverInformaition.Theride}}</span><br><br>
+        <a href="">{{uberEmail.DriverInformaition.TolearnMore}}</a>
+        <a href=""><i class="fas fa-chevron-right"></i></a>
+    </columns>
+  </row>
+</container>
+<!-- adresse info -->
+<container>
+  <!-- button logo -->
+  <row class="button-logo">
+    <columns>
+        <span class="uberx">{{uberEmail.TheButton.ButtonText}}</span>
+        <a href="">{{uberEmail.TheButton.Distance}}</a>
+        <span  style="color:#c2c2c2;vertical-align: middle;"> &#124; {{uberEmail.TheButton.Duration}}</span>
+    </columns>
+  </row>
+  <!-- addresse section -->
+  <row class="addresse">
+    <columns large="6">
+      <img src="{{uberEmail.theAdressE.barIMG}}"style="padding-top: 10px;"alt="">
+        <p class="addresse-top">
+          <span style="font-weight: bold;">{{uberEmail.theAdressE.TimedriverLeft}}</span>
+              <br>{{uberEmail.theAdressE.Theplace}}
+            <br>{{uberEmail.theAdressE.ZipCode}} <br> CA</p>
+        <p class="addresse-bottom"style="padding-left: 30px;">
+            <span class="bottom"style="font-weight: bold;">
+                  {{uberEmail.Destination.TimeArrived}}
+            </span>
+              <br> {{uberEmail.Destination.AdresseDestination}}
+              <br> {{uberEmail.Destination.countryDestinatION}}
+        </p> 
+    </columns>
+    <columns large="6" small="12">
+        <a href="">
+            <img class="map" src="{{uberEmail.Destination.Themap}}"
+            style="height:400px;object-fit: cover;width: 600px;"alt="">
+        </a>
+    </columns>
+  </row>
+</container>

@@ -1,0 +1,26 @@
+<container>
+    <row class="wrapper">
+        <columns>
+          <!-- first row -->
+            <row class="header">
+              <columns small="6" large="8"valign="middle">
+                  <img src="{{uberEmail.headerOnTop.Uber}}"style="object-fit: cover;" alt="">
+              </columns>
+              <columns small="6" large="4"valign="middle">
+                  <span >{{uberEmail.headerOnTop.TotalAmount}} </span><br>
+                  <span class="date" > {{uberEmail.headerOnTop.Date}} </span>
+              </columns>
+          </row>
+            <!-- info section -->
+            <row class="info">
+                <columns small="6"large="8"valign="middle">
+                    <h1>{{uberEmail.MessageNotification.FortheRide}}</h1>
+                    <p>{{uberEmail.MessageNotification.EnjoyedRide}}</p>
+                </columns>
+                <columns small="6" large="4"valign="middle">
+                    <img class="car" src="{{uberEmail.MessageNotification.Vehicle}}" alt="">
+                </columns>
+            </row>
+        </columns>
+    </row>
+  </container>

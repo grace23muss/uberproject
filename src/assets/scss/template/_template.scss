@@ -1,0 +1,343 @@
+html, body{
+  background-color: #d6d6d5;
+  background: #d6d6d5;
+  font-family: uber18-medium, Helvetica, Arial, sans-serif;
+  padding-bottom: 20px;
+  hr{
+    width:84%;
+    color: #000000;
+    }
+}
+//wrapper section
+.wrapper{
+  background: #c6daff;
+  background-color: #c6daff;
+  //header section
+  &> tbody> tr> th> table> tbody> tr> th> .header{
+    padding-left: 20px;
+    &> tbody> tr> th> table> tbody> tr> th> span{
+      font-size: 12px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    &> tbody> tr> th> table> tbody> tr> th> .date{
+      font-size: 12px;
+      padding-left: 28px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    &> tbody> tr> th> table> tbody> tr> th> img{
+      width: 60px;
+      object-fit: cover;
+      vertical-align: middle;
+    }
+    th{
+      padding-left: 26px;
+      padding-top: 19px;
+      padding-bottom: 19px;
+    }
+  }
+//info section
+  &> tbody> tr> th> table> tbody> tr> th>.info{
+   
+    &> tbody> tr> th> table> tbody> tr> th> h1{
+      font-size: 36px;
+      font-weight: 500;
+      vertical-align: middle;
+    }
+    &> tbody> tr> th> table> tbody> tr> th> p{
+      font-size: 22px;
+      font-weight: 400;
+      padding-top: 2px;
+    }
+    &> tbody> tr> th> table> tbody> tr> th> .car{
+      vertical-align: bottom;
+      padding-top: 80px;
+    }
+    th{
+      padding-left: 26px;
+      padding-bottom: 19px;
+    }
+  }
+  
+}
+//for the total-price section
+.total-price{
+  background: #ffffff;
+  background-color: #ffffff;
+  &>  tbody> tr> th> table> tbody> tr> th> h2 , span{
+    font-size: 26px;
+    padding-left: 30px;
+    color: #000000;
+    font-weight: 500;
+    vertical-align: middle;
+  }
+  th{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    
+  }
+}
+//for the tripe fare section
+.trip-fare{
+  background: #ffffff;
+  background-color: #ffffff;
+  &>  tbody> tr> th> table> tbody> tr> th> p,span{
+    font-size: 16px;
+    padding-left: 30px;
+    color: #000000;
+    vertical-align: middle;
+    font-weight: 400;
+  }
+  th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+  }
+  // for the subtotal section
+  .sub-total{
+    background: #ffffff;
+    background-color: #ffffff;
+    &>  tbody> tr> th> table> tbody> tr> th> p,span{
+      font-size: 16px;
+      padding-left: 30px;
+      color: #000000;
+      vertical-align: middle;
+      font-weight: 400;
+      line-height: 0px;
+    }
+    th{
+      padding-top: 10px;
+    padding-bottom: 1px;
+    }
+  }
+//for the wait time section
+.wait-time{
+  &> tbody> tr> th> table> tbody> tr> th> table> tbody> tr> th>table> tbody> tr> th> p,img{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+  &> tbody> tr> th> table> tbody> tr> th> table> tbody> tr> th>table> tbody> tr> th> span{
+    font-size: 16px;
+    vertical-align: middle;
+    padding-left: 50px;
+  }
+  th{
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+  }
+}
+// for the price charged
+.price-charged{
+  background-color: #ffffff;
+  background: #ffffff;
+  th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    vertical-align: middle;
+  }
+}
+//for credit info section
+.credit-info{
+  background-color: #ffffff;
+  background: #ffffff;
+  &> tbody> tr> th> table> tbody> tr> th> img, span,a{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+  }
+  &>  tbody> tr> th> table> tbody> tr> th> .amount{
+    padding-left: 61px;
+  }
+  th{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+  }
+}
+//for content section
+.content{
+  background-color: #ffffff;
+  background: #ffffff;
+  &>tbody> tr> th> table> tbody> tr> th> span,a{
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    
+  }
+  &>tbody> tr> th> table> tbody> tr> th> .registration{
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-top: 10px;
+  }
+  th{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+    padding-left: 30px;
+  }
+}
+//for driver info section
+.driver-info{
+  background: #f8f8fa;
+  background-color: #f8f8fa;
+  &>tbody> tr> th> table> tbody> tr> th> h5{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  &>tbody> tr> th> table> tbody> tr> th> p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #000;
+  }
+  &>tbody> tr> th> table> tbody> tr> th> img{
+    width: 78px;
+    object-fit: cover;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  &>tbody> tr> th> table> tbody> tr> th> span{
+    font-size: 16px;
+    line-height: 22px;
+    color: #4e545b;
+  }
+  th{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+}
+//for button logo section
+.button-logo{
+  &>tbody> tr> th> table> tbody> tr> th>.uberx{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2px 10px 2px ;
+    cursor: auto;
+    background: #000000;
+    background-color: #000000;
+    color: #f2f2f2;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  &>tbody> tr> th> table> tbody> tr> th> a{
+    cursor: auto;
+    color: #b7b7b7;
+    text-align: center;
+    vertical-align: middle;
+  }
+  th{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    vertical-align: middle;
+  }
+}
+// for the addresse section
+.addresse{
+
+  &>tbody> tr> th> table> tbody> tr> th> img,.addresse-top,.addresse-bottom{
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 19px;
+    
+  }
+  th{
+    padding-top: 15px;
+    padding-bottom: 20px;
+  
+   
+ 
+  }
+}
+// for the footer section
+.footer{
+  background: #276ef1;
+  background-color: #276ef1;
+  &>tbody> tr> th> table> tbody> tr> th> a{
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 10px;
+  }
+  th{
+    padding: 10px 0px 15px;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+// for the sub-footer section
+.sub-footer{
+  background: #000000;
+  background-color: #000000;
+  &>tbody> tr> th> table> tbody> tr> th> img{
+    width: 79px;
+    padding-bottom: 40px;
+    vertical-align: middle;
+  }
+  &>tbody> tr> th> table> tbody> tr> th> hr{
+    width: 100%; 
+    margin: 0px;
+    border-top: thin;
+    border-bottom:  1px solid gray;
+    border-left: none;
+    border-right: none;
+
+  }
+th{
+  padding-top: 30px;
+  vertical-align: middle;
+  padding-left: 15px;
+}
+}
+// for the footer support section
+.footer-support{
+  background: #000000;
+  background-color: #000000;
+  &>tbody> tr> th> table> tbody> tr> th> a{
+    color: #e4e4e4;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  &>tbody> tr> th> table> tbody> tr> th> span{
+    color: #4e545b;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    vertical-align: top;
+  }
+  th{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+   
+  }
+}
+// for the disclaimer section
+.disclaimer{
+  background: #f8f8fa;
+  background-color: #f8f8fa;
+  &>tbody> tr> th> table> tbody> tr> th> span{
+    color: #000;
+    font-size: 12px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  th{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 14px;
+  }
+}

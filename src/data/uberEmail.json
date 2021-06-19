@@ -1,0 +1,105 @@
+{
+    "headerOnTop":{
+        "Uber": "https://i.imgur.com/67ytcLi.png",
+        "TotalAmount": "Total CA$25,84",
+        "Date": "may 7 ,2021"
+        
+    },
+    "MessageNotification":{
+        "FortheRide" : "Thanks for riding , Michael",
+        "EnjoyedRide" : "We hope you enjoyed your ride this afternoon.",
+        "Vehicle" : "https://i.imgur.com/eFUDYtg.png"
+    },
+    "TotalPrice": {
+        "TheTotal": "Total",
+        "ThepriceItself" : "CA$25,84"
+    },
+    "ThetripFare" : {
+        "Paragraph": "Trip fare",
+        "PriceofThetrip": "CA$19,45"
+    },
+    "ThesubTotal" : [{
+        "TheTitle": "Subtotal",
+        "ThepriceofTheTitle" : "CA$19,45"
+    },
+    {
+        "TheTitle": "HST",
+        "ThepriceofTheTitle" : "CA$2,97"
+    }
+],
+"ThewaitTime":[{
+    "ItparaGraph": "Wait time",
+    "HelP": "https://i.imgur.com/f3ZHcQ6.png",
+    "ItAmount": "CA$0,27"
+},
+{
+    "ItparaGraph": "Tolls,surcharges,and Fees",
+    "HelP": "https://i.imgur.com/f3ZHcQ6.png",
+    "ItAmount": "CA$3,15"
+}
+],
+"TheAmountCharged":
+{
+    "tTaMountCHarged":"Amount Charged"
+},
+"CreditCardInformation":{
+    "VISA":"https://i.imgur.com/ONVHeNG.png",
+    "CreditNumber":"8989",
+    "ChangeCard":"SWITCH",
+    "cREditinfoPrice":"CA$25,84"
+},
+"TheconTent" :{
+    "FirstContent":"A temporary hold of CA$25.54 was placed on your payment method ",
+    "sameContent" : "This is not a charge and will be removed.It should disappear from your bank statement shortly.",
+    "firstANCHOR" : "Learn More",
+    "SecondAnchor": "Visit the trip page",
+    "MoreInfo" : "for more information, including invoices (where available)",
+    "Registration":"GST Registration Number 987246574RT0001",
+    "PDFversion" :"Downlaod PDF"
+},
+"DriverInformaition":{
+    "DriverName":"You rode with Rohit",
+    "LicencePLate":"Licence Plate: CEJAW045",
+    "LicenceInfo":"PTC Licence D20-4010536",
+    "insuranceIMG":"https://i.imgur.com/du4UCLO.png",
+    "Theride":"Every rideshare trip in Toronto is insured for a covered auto accident by Economical insurance.",
+    "TolearnMore":"Learn More."
+},
+"TheButton" :{
+    "ButtonText":"UberX",
+    "Distance" :"18.17 kilometers",
+    "Duration": "32 min"
+},
+"theAdressE" :{
+    "barIMG":"https://i.imgur.com/9mpH7GM.png",
+    "TimedriverLeft":"8:46PM",
+    "Theplace" :"353 Coron Dr,",
+    "ZipCode" : "Scarborough,ON M1Z 6E8,",
+    "Country" : "CA"
+},
+"Destination":{
+    "TimeArrived" : "9:18 PM",
+    "AdresseDestination" : "991 Wood Ave , Toronto, ON M4D 2H7,",
+    "countryDestinatION" : "CA",
+    "Themap" : "https://i.imgur.com/Zs2SfZE.png"
+},
+"TheFooter" : {
+    "LostItems": "Report lost item",
+    "SUPport" : "Contact support",
+    "Travel": "My trips"
+},
+"UbersuBFOOter" :{
+    "logofootUBER":"https://i.imgur.com/BDEoGAK.png"
+},
+"FooTERforSUpport" :{
+    "ChangePW":"Forgotten password",
+    "PrivatE":"Privacy",
+    "CondiTIon":"Terms",
+    "CompanyName":"Uber B.V.",
+    "SecondName" : "Mr. Treublaan 7",
+    "compANYZIP":" 1097 DP Amsterdam"
+},
+"cOmPanyDisclaimer":{
+    "SmallMessage":"Fare does not include fees that may be charged by your bank.Please contact your bank directly for inquiries."
+}
+}
